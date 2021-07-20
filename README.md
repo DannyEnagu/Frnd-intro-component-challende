@@ -37,8 +37,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/DannyEnagu/Frnd-intro-component-challende.git)
-- Live Site URL: [Add live site URL here](https://tender-morse-c329db.netlify.app/)
+- Solution URL: [solution](https://github.com/DannyEnagu/Frnd-intro-component-challende.git)
+- Live Site URL: [live sitee](https://tender-morse-c329db.netlify.app/)
 
 ### Built with
 
@@ -50,4 +50,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Daniel Enagu](https://www.frontendmentor.io/profile/DannyEnagu)
