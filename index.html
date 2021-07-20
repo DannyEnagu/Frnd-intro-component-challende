@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Links to web font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- link to CSS stylesheet -->
+  <link rel="stylesheet" href="styles/index.css">
+
+  <!-- Source to Javascript -->
+  <script src="script/index.js" defer></script>
+</head>
+
+<body>
+
+  <div class="container" id="page-wrapper">
+    <!-- Introduction  -->
+    <header class="intro">
+      <h1 class="intro-title">Learn to code by watching others</h1>
+
+      <div class="intro-txt">
+        <p class="para">See how experienced developers solve problem in real-time.
+          Watching scripted tutorials is great, but understanding how developers
+          think is invaluable.
+        </p>
+      </div>
+    </header>
+
+    <!-- Main content -->
+    <Main class="main" id="main">
+
+      <div class="invite">
+        <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+      </div>
+
+      <!-- Registeration form -->
+      <div class="form-wrapper">
+        <form novalidate>
+
+          <ul>
+            <!-- First Name input box  -->
+            <li>
+              <div class="form-control" id="input-wrapper">
+                <label for="first-name"> </label>
+                  <input type="text" class="input" name="First Name" id="first_name" placeholder="First Name"
+                    aria-required="true">
+                <span class="err-icon hidden" id="err-icon">
+                  <img src="images/icon-error.svg"
+                  alt="error notification: this icon is displyed when an input error occurs">
+                </span>
+              </div>
+              <div class="error hidden" id="err-msg" aria-live="polite"></div>
+            </li>
+            <!-- Last Name input box -->
+            <li>
+              <div class="form-control" id="input-wrapper">
+                <label for="last-name"> </label>
+                  <input type="text" class="input" name="Last Name" id="last_name" placeholder="Last Name"
+                    aria-required="true">
+                <span class="err-icon hidden" id="err-icon">
+                  <img src="images/icon-error.svg"
+                  alt="error notification: this icon is displyed when an input error occurs">
+                </span>
+              </div>
+              <div class="error hidden" id="err-msg" aria-live="polite"></div>
+            </li>
+            <!-- Email box -->
+            <li>
+              <div class="form-control" id="input-wrapper">
+                <label for="email"> </label>
+                  <input type="email" class="input" name="Email" id="email" placeholder="Email Address"
+                    aria-required="true">
+                <span class="err-icon hidden" id="err-icon">
+                  <img src="images/icon-error.svg"
+                  alt="error notification: this icon is displyed when an input error occurs">
+                </span>
+              </div>
+              <div class="error hidden" id="err-msg" aria-live="polite"></div>
+            </li>
+           <!-- password input box -->
+            <li>
+              <div class="form-control" id="input-wrapper">
+                <label for="password"> </label>
+                  <input type="password" class="input" name="Password" id="password" placeholder="Password"
+                    aria-required="true">
+                <span class="err-icon hidden" id="err-icon">
+                  <img src="images/icon-error.svg"
+                  alt="error notification: this icon is displyed when an input error occurs">
+                </span>
+              </div>
+              <div class="error hidden" id="err-msg" aria-live="polite"></div>
+            </li>
+            <!-- submit button -->
+            <li>
+              <div class="form-submit">
+                <button type="submit" class="btn" id="submit">claim your free trial</button>
+              </div>
+            </li>
+          </ul>
+
+          <!-- terms and condition -->
+          <div class="terms">
+            <p>By clicking the butten, you are agreeing to our
+              <a>Terms and Services</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </Main>
+  </div>
+    <!-- Thank you section -->
+  <div class="greeting hidden" id="thank-you">
+    Registration successful. Thank You!
+  </div> 
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.frontendmentor.io/profile/DannyEnagu">Daniel Enagu</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
